@@ -1,0 +1,55 @@
+/* Comment.css */
+.comment {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+  }
+  
+  .comment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .user-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #007bff; /* You can choose a color for the user icon */
+  }
+  
+  .author {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  
+  .comment p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    text-align: start;
+    margin-left: 10px;
+  }
+  
+  .comment .children {
+    margin-left: 20px;
+    border-left: 2px solid #ccc;
+    padding-left: 10px;
+  }
+  
+  .comment .children .comment {
+    margin: 5px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .comment .children .comment p {
+    font-size: 14px;
+    line-height: 1.3;
+    margin-bottom: 5px;
+  }
+  

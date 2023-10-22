@@ -1,0 +1,42 @@
+/* PostDetail.css */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .points {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .comments-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: start;
+  }
+  
+  .comment {
+    margin-bottom: 10px;
+  }
+  
+  .loading {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    margin: 10px;
+  }
+  
